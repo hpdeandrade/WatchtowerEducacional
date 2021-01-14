@@ -12,6 +12,9 @@ Todo o material compartilhado possui fins educativos apenas. Não coloque em ris
 * TA-Lib (instruções para instalação abaixo)
 
 # Instalação
+### Instalando o software do MetaTrader5
+Após instalado, faça login com as credenciais de sua corretora de escolha (ex: Rico, Clear ou XP). Além disso, é necessário habilitar a função *Algo Trading* dentro do MetaTrader5.
+
 ### Instanciando um ambiente virtual para o projeto
 Essa etapa é opcional e permite que você trabalhe com uma versão mais *clean* do Python, inteiramente dedicada ao projeto. Isso significa que as bibliotecas instaladas não irão se misturar com as da instalação original do Python na sua máquina. Para instalar o virtualenv, execute o comando `pip install virtualenv` no CMD.
 

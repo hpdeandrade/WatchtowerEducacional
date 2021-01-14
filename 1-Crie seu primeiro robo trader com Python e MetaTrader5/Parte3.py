@@ -39,5 +39,4 @@ elif (dados_estrategia['Decisao'].iloc[-1] == 'Venda') and (ativo in ativos_comp
     print('(' + horario_atual + ') Vendendo ' + str(volume) + ' ' + ativo + '...')
         
 else:                                                                                           # Se decisão é esperar.
-
     print('(' + horario_atual + ') Aguarde...')

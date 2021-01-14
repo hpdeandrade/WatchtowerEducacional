@@ -32,5 +32,12 @@ final = dt.datetime.now()               # Data e hora finais. Como a ideia é at
 if not mt5.initialize():
     mt5.shutdown()
 
+# Verifica se o ativo escolhido está disponível/habilitado na plataforma do MetaTrader5.
+ativos_disponiveis = mt5.symbols_get(group='*' + ativo + '*')
+if ativo in ativo in [ativos_disponiveis[n].name for n in range(len(ativos_disponiveis))]:
+    mt5.symbol_select(ativo, True)
+else:
+    print('Ativo selecionado inválido. Verifique se o mesmo está disponível na plataforma do MetaTrader5.')
+
 # Execução da função definida acima.
 dados_historicos = baixar_dados_historicos(ativo, intervalo, inicio, final)
