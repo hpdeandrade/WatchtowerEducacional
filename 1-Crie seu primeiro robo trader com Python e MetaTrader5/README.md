@@ -1,0 +1,38 @@
+# Watchtower Educacional
+Watchtower Educacional é um projeto de compartilhamento de conteúdo educacional nos campos de trading, programação e finanças. A iniciativa é coordenada pelos desenvolvedores da Watchtower, um sistema de trading algorítmico escrito em Python com aplicações nos mercados de ações, cambial, juros e crypto.
+
+# Disclaimer
+Todo o material compartilhado possui fins educativos apenas. Não coloque em risco dinheiro que você não está disposto a perder. Use os softwares disponibilizados por sua conta e risco. Nenhum dos autores e afiliados assume quaisquer responsabilidades pelos seus resultados ao operar no mercado.
+
+# 1 - Crie seu primeiro robô trader com Python e MetaTrader5
+### Requerimentos
+* Python 3.8.6 [(download oficial)](https://www.python.org/downloads/release/python-386/)
+* MetaTrader5 [(download oficial)](https://www.metatrader5.com/en)
+* virtualenv (recomendável)
+* TA-Lib (instruções para instalação abaixo)
+
+# Instalação
+### Instanciando um ambiente virtual para o projeto
+Essa etapa é opcional e permite que você trabalhe com uma versão mais *clean* do Python, inteiramente dedicada ao projeto. Isso significa que as bibliotecas instaladas não irão se misturar com as da instalação original do Python na sua máquina. Para instalar o virtualenv, execute o comando `pip install virtualenv` no CMD.
+
+Para criar o ambiente virtual, `cd` para a pasta do projeto (preferivelmente) e então execute `virtualenv MYENV` no CMD. Substitua `MYENV` por algo de sua escolha. Uma nova instância do Python foi criada!
+
+O último passo é ativar o ambiente virtual criado. Execute `MYENV/scripts/activate` e pronto! Agora você está pronto pra trabalhar no seu projeto em um ambiente dedicado.
+
+### Instalando o TA-Lib
+Para instalar o TA-Lib no Windows, acesse [biblioteca TA-Lib não-oficial para Windows](https://www.lfd.uci.edu/~gohlke/pythonlibs/) e baixe a versão aplicável para a sua instalação do Python. Como menciono a versão 3.8.6 do Python no início do passo-a-passo, baixarei o arquivo TA_Lib‑0.4.19‑cp38‑cp38‑win_amd64.whl. Há também a versão 32-bits, caso seja o caso.
+
+Execute `pip install FILE` para instalar. Substitua `FILE` pelo arquivo baixado, incluindo a extensão `.whl` no nome do arquivo.
+
+Se você está no Linux/MacOS, cheque [os guias oficiais de instalação](https://mrjbq7.github.io/ta-lib/install.html).
+
+### Instalando as demais bibliotecas requeridas
+Para instalar as dependências do projeto, execute `pip install -r requirements.txt`. Esse último passo pode demorar alguns segundos.
+
+# Conclusão
+O projeto Watchtower iniciou em 2017, quando após concluir minha graduação em administração de empresas aprendi a programar. Contribuir para esse projeto tem sido uma grande oportunidade de aplicar duas disciplinas pelas quais sou apaixonado: finanças e programação.
+
+*"No man is better than a machine. No machine is better than a man with a machine"*
+Richard Bookstaber, MIT Economics Professor
+
+Contato via hpdeandrade@gmail.com or [twitter](https://twitter.com/hpdeandrade).
