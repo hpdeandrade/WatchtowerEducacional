@@ -5,7 +5,7 @@ import talib.abstract as ta             # TA-Lib
 import datetime as dt                   # Datetime (biblioteca inclusa)
 import time                             # Time (biblioteca inclusa)
 
-# Definição da funlçao de obtenção de dados históricos.
+# Definição da função de obtenção de dados históricos.
 def baixar_dados_historicos(ativo, intervalo, inicio, final):
     """Faz o download dos dados com base nos parâmetros definidos, formata os dados, e salva na pasta do projeto em formato CSV."""
 
