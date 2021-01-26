@@ -69,7 +69,6 @@ def produzir_estrategia_robo3(dados_historicos, ativo):
 
     # Preço do minério de ferro.
     quandl.ApiConfig.api_key = 'YOUR_QUANDL_API_KEY' # Obtenha de graça ao se cadastrar na Quandl para fazer 50+ chamadas de API por dia.
-    quandl.ApiConfig.api_key = 'W42Ga_8xBHLzxmAM-13o'
     hoje_string = dt.datetime.now().strftime('%Y-%m-%d')
     preco_minerio = quandl.get('ODA/PIORECR_USD', start_date='2020-01-01', end_date=hoje_string, collapse='daily').iloc[-1][0]
 
